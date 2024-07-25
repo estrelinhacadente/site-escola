@@ -35,7 +35,21 @@ color:black;}
 
 .rodape{
     background-color: #7d8aff;
-    color:black;
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 
+.contato{
+    background-color: #7d8aff;
+}
+.contato_titulo{
+     color: black; display:flex; justify-content: space-around; align-items: center;
+}
+.contato_texto {color: #000000;
+}
+.contato_email {
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 24px;
+    width: 90%;
+}
