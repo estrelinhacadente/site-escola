@@ -47,6 +47,38 @@ color:black;}
 }
 .contato_texto {color: #000000;
 }
+
+.tópicos {
+    background: #7d8aff;
+    text-align: center;
+    padding: 1em;
+}
+
+.tópicos_titulo {
+    color: black;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.tópicos_lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tópicos_item {
+    margin: 2em 0.5em;
+    list-style: none;
+}
+
+.tópicos_limk {
+    color: aquamarine;
+    padding: 1em;
+    background-color: aquamarine;
+    text-decoration: none; 
+    font-size: 14px;
+}
+
 .contato_email {
     padding: 1em;
     border: 1px solid;
