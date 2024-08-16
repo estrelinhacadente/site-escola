@@ -57,7 +57,7 @@ color:black;}
 .tópicos_titulo {
     color: black;
     font-weight: 300;
-    margin-bottom: 1em;
+    margin-bottom: 1em 0;
 }
 
 .tópicos_lista {
@@ -71,12 +71,39 @@ color:black;}
     list-style: none;
 }
 
-.tópicos_limk {
-    color: aquamarine;
+.tópicos_link {
+    color: aliceblue;
     padding: 1em;
-    background-color: aquamarine;
+    background-color: #690597c0;
     text-decoration: none; 
     font-size: 14px;
+    font-weight: 700;
+}
+
+.banner {
+    background: #7d8aff;
+    color:#000000
+    text-align: center;
+    padding: 2.Sem 2em;
+}
+
+.banner_titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner_texto {
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.banner_pesquisa {
+    background-color: transparent;
+    border: 1em solid;
+    color: #000000;
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
 }
 
 .contato_email {
